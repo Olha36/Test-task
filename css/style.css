@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(/fonts/MasonChronicles.woff),
+         url(/fonts/masonchronicles[1].woff2);
+         font-style: normal;
+}
+.header {
+    width: 55%;
+    display: flex;
+    margin: 40px 387px;
+    justify-content: space-between;
+    border-bottom: 1px solid #828282;
+}
+.header a {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 30px;
+    color: #828282;
+    margin-bottom: 20px;
+}
+.header a:first-child {
+    font-weight: bold;
+    color: black;
+}
+.denzel {
+    /* margin-left: 250px; */
+    margin-bottom: 178px;
+    text-align: center;
+}
+.denzel h1 {
+    width: 10%;
+    font-weight: bold;
+    font-size: 47px;
+    line-height: 55px;
+    margin-left: 110px;
+}
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 45%;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 250px;
+}
+.about {
+    background-color: #F6F6F6;
+    padding-top: 90px;
+    padding-bottom: 104px;
+    margin-bottom: 90px;
+}
+.about h2 {
+    margin-bottom: 48px;
+}
+.about h2, .about p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 21px;
+}
+.skills img {
+    background-color: black;
+}
+.skills h2, h5 {
+    text-align: center;
+}
+.programmes {
+    display: flex;
+    justify-content: center;
+    margin-left: 289px;
+    padding-bottom: 111px;
+}
+.programme {
+    margin-right: 110px;
+}
+.programme p {
+    width: 70%;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700;
+    color: #828282;
+    text-align: center;
+}
+.star1 {
+    margin-top: 30px;
+}
+.portfolio {
+    background-color:  #F6F6F6;
+    padding-top: 90px;
+    padding-bottom: 20px;
+}
+.portfolio h2 {
+    margin-bottom: 90px;
+}
+.portfolio img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+.portfolio h5 {
+    margin-bottom: 90px;
+}
+.footer {
+    text-align: center;
+}
+.button-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-bottom: 90px;
+}
+.button {
+    background-color: black;
+    width: 180px;
+    height: 42px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button p {
+    color: white;
+}
+.links {
+    margin-bottom: 174px;
+}
+.links a {
+    margin-right: 35px;
+}
