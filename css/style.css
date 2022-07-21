@@ -4,10 +4,13 @@
          url(/fonts/masonchronicles[1].woff2);
          font-style: normal;
 }
+.container {
+    width: 95%;
+}
 .header {
     width: 55%;
     display: flex;
-    margin: 40px 387px;
+    margin: 40px auto;
     justify-content: space-between;
     border-bottom: 1px solid #828282;
 }
@@ -23,32 +26,25 @@
     color: black;
 }
 .denzel {
-    /* margin-left: 250px; */
     margin-bottom: 178px;
     text-align: center;
 }
 .denzel h1 {
-    width: 10%;
     font-weight: bold;
     font-size: 47px;
     line-height: 55px;
-    margin-left: 110px;
 }
 .text{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 45%;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 21px;
-    margin-left: 250px;
+    justify-content: space-evenly;
 }
 .about {
+    width: 95%;
+    margin: 0 auto 90px;
     background-color: #F6F6F6;
     padding-top: 90px;
     padding-bottom: 104px;
-    margin-bottom: 90px;
 }
 .about h2 {
     margin-bottom: 48px;
@@ -88,6 +84,8 @@
     background-color:  #F6F6F6;
     padding-top: 90px;
     padding-bottom: 20px;
+    width: 95%;
+    margin: 0 auto;
 }
 .portfolio h2 {
     margin-bottom: 90px;
@@ -127,4 +125,35 @@
 }
 .links a {
     margin-right: 35px;
+}
+/* 
+media */
+
+@media screen and (max-width: 1024px) {
+   .text img {
+    width: 80%;
+   }
+   .skills {
+    width: 95%;
+   }
+   .portfolio {
+    width: 95%;
+    margin: 0 auto;
+   }
+   .portfolio img {
+    width: 100%;
+   }
+   @media screen and (max-width: 800px) {
+    .programmes {
+        display: flex;
+        margin-left: 0;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        
+    }
+    .text img {
+        width: 650px;
+        height: 260px;
+    }
+   }
 }
